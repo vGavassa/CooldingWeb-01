@@ -1,7 +1,7 @@
 /* Estilos gerais */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #969696;
     margin: 0;
     padding: 0;
 }
@@ -29,7 +29,7 @@ article {
 section {
     margin: 1rem 0;
     padding: 1rem;
-    background-color: #e7f3fe;
+    background-color: #ffffff;
     border-left: 5px solid #2196F3;
     border-radius: 4px;
 }

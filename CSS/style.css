@@ -1,0 +1,54 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Estilo para os artigos */
+article {
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+/* Estilo para as seções */
+section {
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: #e7f3fe;
+    border-left: 5px solid #2196F3;
+    border-radius: 4px;
+}
+
+#Planeta\ 1 {
+    background-color: #fce4ec;
+    border-left-color: #e91e63;
+}
+
+#Planeta\ 2 {
+    background-color: #e8f5e9;
+    border-left-color: #4CAF50;
+}
+
+/* Classes específicas para os artigos */
+.Artigo\ 1 {
+    border-top: 3px solid #2196F3;
+}
+
+.Artigo\ 2 {
+    border-top: 3px solid #4CAF50;
+}

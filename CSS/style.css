@@ -26,9 +26,51 @@ header {
     border-bottom-right-radius: 25px;
     box-shadow: 0 6px 12px rgba(165, 165, 165, 0.7);
     background: linear-gradient(90deg, #ffffff, #272727);
-    transition: background 0.01s ease-in-out;
 }
 
+
+#info {
+    width: 180px;
+    height: 380px;
+    padding: 20px;
+    background-color: #00000060;
+    border-left: 5px solid #858585;
+    border-radius: 0px 40px 0px 0px;
+    color: #ffffff;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+}
+
+#info nav {
+    padding: 0px;
+    margin-top: 10px;
+}
+
+#info ul {
+    
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+#info li {
+    margin-bottom: 15px;
+}
+
+#info a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#info a:hover {
+    display: inline-block;
+    transition: transform 0.3s ease;
+    transform: translateX(10px);
+    color: #00ff15;
+}
 
 
 
@@ -38,7 +80,7 @@ section {
     background-color: #acacac;
     border-left: 5px solid #2196F3;
     border-radius: 4px;
-    color:#000000
+    color:#ffffff
 }
 
 #Corpo\ 1 {
@@ -167,6 +209,7 @@ article {
 
 
 article img {
+    color:#ffffff;
     width: 400px;
     height: auto;
     display: block;

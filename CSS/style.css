@@ -3,43 +3,38 @@ body {
     background-color: #000000;
     margin: 0;
     padding: 0;
-
-    background-image: url('../Assets/UniverseCopy.jpg');
     background-size: contain;
     background-repeat: repeat-y;
     background-position: top;
 }
 
-
-
-
-
-
 header {
     max-width: 360px;
     color: #ffffff;
     text-align: center;
-    padding: 1.5rem 1rem;
-    font-size: 1.6rem;
+    padding: 1rem 1rem;
+    font-size: 1.5rem;
     margin: 0 auto 2rem auto;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
-    box-shadow: 0 6px 12px rgba(165, 165, 165, 0.7);
-    background: linear-gradient(90deg, #ffffff, #272727);
+    box-shadow: 0 12px 12px rgb(134, 134, 134);
+    background: black;
 }
 
+header:hover {
+    cursor: default;
+}
 
 #info {
     width: 180px;
-    height: 380px;
-    padding: 20px;
+    height: 400px;
+    padding: 30px;
     background-color: #00000060;
-    border-left: 5px solid #858585;
-    border-radius: 0px 40px 0px 0px;
+    border-left: 5px solid #6b6b6b;
     color: #ffffff;
     position: fixed;
     top: 20px;
-    left: 20px;
+    left: 25px;
     z-index: 1000;
 }
 
@@ -49,7 +44,6 @@ header {
 }
 
 #info ul {
-    
     list-style-type: none;
     padding: 10px;
     margin: 10px;
@@ -66,22 +60,68 @@ header {
 }
 
 #info a:hover {
+    cursor:pointer;
     display: inline-block;
     transition: transform 0.3s ease;
     transform: translateX(10px);
-    color: #00ff15;
+    color: #e5ff00;
 }
 
+#info h1:hover {
+    cursor: default;
+}
+
+#linkedin-icon {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+
+#linkedin-icon img {
+    width: 40px;
+    height: 40px;
+    transition: all 0.3s ease-in-out; /* Adiciona a transição */
+}
+
+#linkedin-icon img:hover {
+    opacity: 0.8;
+    width: 50px;
+    height: 50px;
+}
+
+#youtube-icon {
+    position: fixed;
+    top: 80px;
+    right: 10px;
+    z-index: 1000;
+}
+
+#youtube-icon img {
+    width: 40px; 
+    height: 40px;
+    transition: all 0.3s ease-in-out; /* Adiciona a transição */
+}
+
+#youtube-icon img:hover {
+    opacity: 0.8;
+    width: 50px;
+    height: 50px;
+}
 
 
 section {
+    font-size: 1.2rem;
     margin: 1rem 0;
     padding: 1rem;
-    background-color: #acacac;
-    border-left: 5px solid #2196F3;
+    background-color: #4d4d4d86;
+    border-left: 5px solid #6b6b6b57;
     border-radius: 4px;
-    color:#ffffff
+    color: #ffffff;
+    font-style: italic;
+    line-height: 1.5;
 }
+
 
 #Corpo\ 1 {
     background-color: #fce4ec;
@@ -139,69 +179,69 @@ section {
 article {
     justify-content: center;
     margin: 2rem auto;
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 8px;
     max-width: 600px;
-    background-color: rgba(244, 244, 244, 0.055);
+    background-color: rgba(0, 0, 0, 0.055);
 }
 
 
 .Artigo1 {
-    background-color: #96000033;
-    color: #333333;
+    background-color: black;
+    color: #ffffff;
     border-top-color: #4CAF50;
 }
 
 .Artigo2 {
-    background-color: rgba(233, 30, 99, 0.2);
+    background-color: black;
     color: #ffffff;
     border-top-color: #4CAF50;
 }
 
 .Artigo3 {
-    background-color: rgba(33, 150, 243, 0.2);
+    background-color: black;
     color: #ffffff;
     border-top-color: #FFEB3B;
 }
 
 .Artigo4 {
-    background-color: rgba(33, 150, 243, 0.2);
+    background-color: black;
     color: #ffffff;
     border-top-color: #FFEB3B;
 }
 
 .Artigo5 {
-    background-color: rgba(33, 150, 243, 0.2);
+    background-color: black;
     color: #ffffff;
     border-top-color: #FFEB3B;
 }
 
 .Artigo6 {
-    background-color: rgba(33, 150, 243, 0.2);
+    background-color: black;
     color: #ffffff;
     border-top-color: #FFEB3B;
 }
 
 .Artigo7 {
-    background-color: rgba(33, 150, 243, 0.2);
+    background-color: black;
     color: #ffffff;
     border-top-color: #FFEB3B;
 }
 
 .Artigo8 {
-    background-color: rgba(33, 150, 243, 0.2);
+    background-color: black;
     color: #ffffff;
     border-top-color: #FFEB3B;
 }
 
 .Artigo9 {
-    background-color: rgba(33, 150, 243, 0.2);
+    background-color: black;
     color: #ffffff;
     border-top-color: #FFEB3B;
 }
 
 .Artigo10 {
-    background-color: rgba(33, 150, 243, 0.2);
+    background-color: black;
     color: #ffffff;
     border-top-color: #FFEB3B;
 }
@@ -221,10 +261,11 @@ footer {
     background-color: #202020;
     color: #ffffff;
     text-align: center;
-    padding: 1rem 0;
+    padding: 0.2rem 0;
     margin-top: 2rem;
-    border-top: 2px solid #e0e0e085;
+    border-top: 5px solid #e0e0e085;
     font-size: 0.9rem;
+    border-radius: 40px 40px 0px 0px;
 }
 
 footer a {
